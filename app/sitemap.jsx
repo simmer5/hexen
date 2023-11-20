@@ -9,7 +9,7 @@ export default function sitemap() {
 			priority: 1,
 		},
 		{
-			url: 'https://hexen/apie',
+			url: 'https://hexen.lt/apie',
 			lastModified: new Date(),
 			changeFrequency: 'monthly',
 			priority: 0.8,
