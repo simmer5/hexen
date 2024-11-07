@@ -6,21 +6,18 @@ import NavBar from '@/components/NavBar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-	title: 'HEXEN montavimas',
-	description:
-		'Virtuvės, biuro baldų. vidaus durų bei pakabinamų lubų montavimas Vilniuje. Susisiekite: tel. +370 601 88882, el. paštas hexen.hello@gmail.com',
+	title: 'HEXEN',
+	description: 'Skaitmeninės paslaugos',
 	generator: 'Next.js',
 	applicationName: 'HEXEN',
 	referrer: 'origin-when-cross-origin',
 	keywords: [
-		'baldu montavimas',
-		'biuro baldu montavimas',
-		'virtuviniu baldu montavimas',
-		'pakabinamu lubu montavimas',
-		'vidaus duru montavimas',
+		'skaitmenines paslaugos',
+		'web puslapiu kurimas',
+		'video kurimo paslaugos',
 	],
-	authors: [{ name: 'Mindaugas', url: 'https://hexen.lt' }],
-	creator: 'Mindaugas',
+	authors: [{ name: 'MiSt', url: 'https://hexen.lt' }],
+	creator: 'MiSt',
 	formatDetection: {
 		email: false,
 		address: false,
@@ -32,7 +29,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body className={inter.className}>
-				<NavBar />
+				{/* <NavBar /> */}
 				{children}
 				<Analytics />
 			</body>
